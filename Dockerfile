@@ -27,6 +27,7 @@ ENV NODE_ENV=production
 EXPOSE 80
 
 # 设置启动命令
-CMD ["npm", "start"]
+CMD ["npm", "start", "--", "--port", "80"]
+
 
 
