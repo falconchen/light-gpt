@@ -25,3 +25,5 @@ ENV NODE_ENV=production
 
 # 设置启动命令
 CMD ["npm", "start"]
+
+EXPOSE 80
