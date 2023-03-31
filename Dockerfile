@@ -23,7 +23,10 @@ RUN npm run build
 # 设置环境变量
 ENV NODE_ENV=production
 
+
+EXPOSE [80,443,3000]
+
 # 设置启动命令
 CMD ["npm", "start"]
 
-EXPOSE 80
+
